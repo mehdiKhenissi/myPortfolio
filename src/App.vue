@@ -27,14 +27,14 @@ provide("tooglePageLoading", tooglePageLoading);
 
 <template>
   
-  <!-- <div class="relative min-h-screen w-full">
+  <div class="relative min-h-screen w-full">
     <div class="fixed top-0 left-0 w-full h-full z-[-1]">
       <img
         src="@/assets/img/background.gif"
         alt="Background"
         class="w-full h-full object-cover"
       />
-      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/75"></div>
     </div>
 
     <main
@@ -44,33 +44,7 @@ provide("tooglePageLoading", tooglePageLoading);
       <headerComponent @section-change="handleSectionChange"></headerComponent>
       <RouterView :current-section="currentSection" />
     </main>
-  </div> -->
+  </div>
 
-  <main
-    class="h-screen py-8 flex items-center justify-center"
-  >
-    <div class="fixed top-0 left-0 w-full h-full z-[-1]">
-      <img
-        src="@/assets/img/background.gif"
-        alt="Background"
-        class="w-full h-full object-cover"
-      />
-    </div>
-    
-    <div class="fixed w-full h-full inset-0 bg-black/75 z-10"></div>
-
-    <div class="relative z-10 flex flex-col items-center justify-center min-h-screen py-16 text-white">
-      <binairyLoadingComponent v-if="false"></binairyLoadingComponent>
-      <!-- <pageLoadingComponent v-if="page_loading_showed"></pageLoadingComponent> -->
-      <headerComponent @section-change="handleSectionChange"></headerComponent>
-      <RouterView :current-section="currentSection" />
-
-      <!--  solution 1 detruit le composant et reconstruit tout   -->
-      <!-- <RouterView :key="currentSection" :current-section="currentSection"/> -->
-      <!-- solution 2 dynamique passe juste la nouvelle valeurs vers le composand, le composnat garde tt ces données -->
-      <!-- <RouterView v-slot="{ Component }">
-  <component :is="Component" :current-section="currentSection" />
-</RouterView> -->
-    </div>
-  </main>
+  
 </template>
