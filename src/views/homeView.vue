@@ -32,7 +32,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="py-8">
+  <div class="w-full py-8">
     <component :is="currentComponent" />
   </div>
 </template>

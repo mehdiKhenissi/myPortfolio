@@ -6,7 +6,7 @@ defineEmits(["section-change"]);
 <template>
   <!-- <nav class="w-50 m-auto bg-blue-950 text-white px-4 py-3 flex items-center justify-between"> -->
   <nav
-    class="fixed top-5 left-1/2 transform -translate-x-1/2 bg-blue-950/90 text-white px-6 py-1 rounded-lg shadow-md z-50 border-4 border-blue-900"
+    class="fixed top-5 bg-linear-to-r from-gray-900 to-teal-950 text-white rounded-lg z-50 border-1 border-teal-500  px-6 py-1 shadow-[0_0_20px_2px_rgba(94,233,181,0.6)]"
   >
     <!-- Logo -->
     <div class="text-xl font-bold">
@@ -60,7 +60,7 @@ defineEmits(["section-change"]);
       <li class="">
         <a
           @click="$emit('section-change', 'about')"
-          class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-orange-600/20 hover:text-orange-600 hover:rounded-full gap-2"
+          class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-emerald-600/20 hover:text-emerald-200 hover:rounded-full gap-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ defineEmits(["section-change"]);
       <li>
         <a
           @click="$emit('section-change', 'experiences')"
-          class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-orange-600/20 hover:text-orange-600 hover:rounded-full gap-2"
+          class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-emerald-600/20 hover:text-emerald-200 hover:rounded-full gap-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -93,10 +93,10 @@ defineEmits(["section-change"]);
               d="M19.906 9c.382 0 .749.057 1.094.162V9a3 3 0 0 0-3-3h-3.879a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H6a3 3 0 0 0-3 3v3.162A3.756 3.756 0 0 1 4.094 9h15.812ZM4.094 10.5a2.25 2.25 0 0 0-2.227 2.568l.857 6A2.25 2.25 0 0 0 4.951 21H19.05a2.25 2.25 0 0 0 2.227-1.932l.857-6a2.25 2.25 0 0 0-2.227-2.568H4.094Z"
             />
           </svg>
-          Experiences</a
+          Experiences & Projets</a
         >
       </li>
-      <li>
+      <!-- <li>
         <a
           @click="$emit('section-change', 'projects')"
           class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-orange-600/20 hover:text-orange-600 hover:rounded-full gap-2"
@@ -115,11 +115,11 @@ defineEmits(["section-change"]);
           </svg>
           Projets</a
         >
-      </li>
+      </li> -->
       <li>
         <a
           @click="$emit('section-change', 'interest')"
-          class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-orange-600/20 hover:text-orange-600 hover:rounded-full gap-2"
+          class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-emerald-600/20 hover:text-emerald-200 hover:rounded-full gap-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
