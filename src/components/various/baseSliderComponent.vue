@@ -45,7 +45,7 @@ onUnmounted(() => {
       >
         <img
           :src="img"
-          class="w-full h-40 object-cover"
+          class="w-full h-48 object-cover"
           alt="Slide image"
         />
       </div>
