@@ -380,7 +380,7 @@ const entreprises = [
               >
                 <!-- Icône -->
                 <a href="https://autocars-chazot.com/" target="_blank">
-                  <img src="@/assets/img/projects/chazot.png" class="bg-emerald-100 rounded-xl w-auto h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img src="@/assets/img/projects/chazot.png" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
                 </a>
               </div>
 

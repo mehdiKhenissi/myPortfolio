@@ -116,7 +116,7 @@ defineEmits(["section-change"]);
           Projets</a
         >
       </li> -->
-      <li>
+      <!-- <li>
         <a
           @click="$emit('section-change', 'interest')"
           class="inline-flex items-center cursor-pointer px-4 py-2 hover:font-bold hover:bg-emerald-600/20 hover:text-emerald-200 hover:rounded-full gap-2"
@@ -135,7 +135,7 @@ defineEmits(["section-change"]);
           </svg>
           Centre d'interet</a
         >
-      </li>
+      </li> -->
     </ul>
   </nav>
 </template>
