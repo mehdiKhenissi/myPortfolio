@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
-  <div class="grid grid-cols-6">
-    <div class="col-span-4 col-start-2 max-sm:p-3 sm:p-4 md:p-6">
+  <div class="grid grid-cols-9">
+    <div class="col-span-7 col-start-2 max-sm:p-3 sm:p-4 md:p-6">
       <div class="grid max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
         <div class="bg-transparent flex items-center justify-center">
           <div class="h-full flex flex-col items-center justify-center">
