@@ -222,7 +222,7 @@ const entreprises = [
             class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
           >
             <img
-              src="@/assets/img/projects/ciao_365.PNG"
+              src="@/assets/img/projects/ciao_365.png"
               alt="WebMediaRM Logo"
               class="mx-auto w-full h-45 my-10"
             />
