@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import mmk_cv from "@/assets/img/mmk_cv.pdf";
+</script>
 <template>
   <div class="grid grid-cols-9">
     <div class="col-span-7 col-start-2 max-sm:p-3 sm:p-4 md:p-6">
@@ -31,7 +33,7 @@
                 /></a>
               </li>
               <li class="bg-gray-100 rounded-lg">
-                <a href="./src/assets/img/mmk_cv.pdf" target="_blank"
+                <a :href="mmk_cv" target="_blank"
                   ><img
                     src="@/assets/img/download_cv.png"
                     class="w-12 object-cover rounded-lg"
