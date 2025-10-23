@@ -1,6 +1,12 @@
 <script setup>
 import { ref } from "vue";
 import baseSliderComponent from "../various/baseSliderComponent.vue";
+import image_galactic_1 from "@/assets/img/projects/galactic_1.png";
+import image_galactic_2 from "@/assets/img/projects/galactic_2.png";
+import image_tml from "@/assets/img/projects/tml.png";
+import image_tml_api from "@/assets/img/projects/tml_api.png";
+
+//const image_galactic_1 = new URL('@/assets/img/projects/galactic_1.png', import.meta.url).href
 
 const entreprises = [
   { name: "TPR", logo: "@/assets/img/entreprise/tpr.png" },
@@ -170,11 +176,10 @@ const entreprises = [
           <div
             class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
           >
-            <div class="py-10 bg-gray-900">
+            <div class="py-8 bg-gray-900">
               <baseSliderComponent
                 :images="[
-                  './src/assets/img/projects/galactic_1.png',
-                  './src/assets/img/projects/galactic_2.png',
+                  image_galactic_1, image_galactic_2
                 ]"
                 :autoplay="true"
                 :interval="4000"
@@ -250,11 +255,10 @@ const entreprises = [
           <div
             class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
           >
-            <div class="py-10 bg-gray-900">
+            <div class="py-8 bg-gray-900">
               <baseSliderComponent
                 :images="[
-                  './src/assets/img/projects/tml.png',
-                  './src/assets/img/projects/tml_api.png',
+                  image_tml, image_tml_api
                 ]"
                 :autoplay="true"
                 :interval="4000"
