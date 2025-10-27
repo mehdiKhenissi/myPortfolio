@@ -58,7 +58,7 @@ import mmk_cv from "@/assets/img/mmk_cv.pdf";
           <p
             class="font-mono text-white text-base/9 font-bold text-lg tracking-wide"
           >
-            <span class="text-emerald-500">ingénieur informatique</span>, je
+            <span class="text-emerald-500">Ingénieur informatique</span>, je
             suis animé par une passion profonde pour la création d’expériences
             digitales uniques et performantes.
             <br />

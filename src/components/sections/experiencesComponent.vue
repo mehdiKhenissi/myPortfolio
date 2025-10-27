@@ -21,8 +21,8 @@ const entreprises = [
 </script>
 <template>
   <div class="max-sm:p-3 sm:p-4 md:p-6">
-    <div class="w-full mt-10 space-y-4">
-      <div class="text-center mb-12">
+    <div class="w-full mt-4 space-y-4">
+      <div class="text-center mb-5">
         <h2 class="text-3xl md:text-4xl font-semibold text-emerald-300 mb-2">
           Mon expérience sur le terrain
         </h2>
@@ -160,8 +160,8 @@ const entreprises = [
 
       <!-- Grille des Projets -->
 
-      <div class="text-center mt-20">
-        <h2 class="text-3xl md:text-4xl font-semibold text-emerald-300 mb-2">
+      <div class="text-center mt-15">
+        <h2 class="text-3xl md:text-4xl font-semibold text-emerald-300 mb-5">
           Mes dernières réalisations
         </h2>
         <div class="glow-line"></div>
