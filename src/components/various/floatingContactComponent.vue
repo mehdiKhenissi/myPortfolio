@@ -77,7 +77,7 @@
 
           <div class="rounded-lg border border-teal-500 p-3">
             <div class="text-m font-medium text-emerald-400">Adresse</div>
-            <div class="text-m text-emerald-100">1 rue du noroit, 17180 Périgny, France</div>
+            <div class="text-m text-emerald-100">54 Avenue Corot, 13013 Marseille, France</div>
           </div>
         </div>
       </div>

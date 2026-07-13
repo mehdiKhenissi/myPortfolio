@@ -69,7 +69,7 @@ import mmk_cv from "@/assets/img/mmk_cv.pdf";
             Mon expertise couvre un large éventail d’outils et de langages – de
             <span class="text-emerald-500">Symfony</span> et
             <span class="text-emerald-500">PHP</span> à
-            <span class="text-emerald-500">Vue 3</span>,<span
+            <span class="text-emerald-500">Vue JS</span>,<span class="text-emerald-500">React JS</span>,<span
               class="text-emerald-500"
               >JavaScript</span
             >
@@ -257,6 +257,13 @@ import mmk_cv from "@/assets/img/mmk_cv.pdf";
           />
         </div>
         <div class="min-sm:hidden md:inline md:col-span-3"></div>
+        <div>
+          <img
+            src="@/assets/img/stack_technique/logo-react-js.webp"
+            class="w-full h-35 object-contain rounded-lg bg-gray-900 shadow-[0_0_30px_1px_rgba(94,233,181,0.6)]"
+            alt="Jquery"
+          />
+        </div>
         <div>
           <img
             src="@/assets/img/stack_technique/jquery.jpg"

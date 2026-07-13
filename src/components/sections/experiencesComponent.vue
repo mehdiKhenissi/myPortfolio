@@ -34,6 +34,32 @@ const entreprises = [
         <div
           class="col-span-6 col-start-2 grid max-sm:grid-cols-1 md:grid-cols-3 gap-10"
         >
+          <!-- Innovation e-santé sud -->
+          <div
+            class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
+          >
+            <p class="uppercase text-emerald-400 font-semibold text-sm mb-3">
+              Développeur & intégrateur logiciels
+            </p>
+            <img
+              src="@/assets/img/entreprise/iess-paca.svg"
+              alt="IESS Logo"
+              class="mx-auto w-60 mb-3 bg-orange-600"
+            />
+            <h3 class="text-lg font-semibold text-emerald-300 mb-1">
+              Innovation e-Santé Sud
+            </h3>
+            <p class="text-sm text-emerlad-400 mb-4">
+              Expert Technologies Numériques e-Santé PACA | ieSS
+            </p>
+            <a
+              href="https://iess.fr/"
+              class="inline-block text-sm text-emerald-300 border border-emerald-400/40 px-4 py-2 rounded-md hover:bg-emerald-400/10 transition mt-auto"
+              target="_blank"
+              >Visiter le site</a
+            >
+          </div>
+
           <!-- TPR -->
           <div
             class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
@@ -44,7 +70,7 @@ const entreprises = [
             <img
               src="@/assets/img/entreprise/tpr.png"
               alt="TPR Logo"
-              class="mx-auto w-18 mb-3"
+              class="mx-auto w-20 mb-3 bg-white p-1"
             />
             <h3 class="text-lg font-semibold text-emerald-300 mb-1">
               Tout pour Réussir
@@ -99,7 +125,9 @@ const entreprises = [
               class="mx-auto w-50 mb-3"
             />
             <h3 class="text-lg font-semibold text-emerald-300 mb-1">Edatis</h3>
-            <p class="text-sm text-emerlad-400 mb-4">CRM & solutions marketing</p>
+            <p class="text-sm text-emerlad-400 mb-4">
+              CRM & solutions marketing
+            </p>
             <a
               href="#"
               class="inline-block text-sm text-emerald-300 border border-emerald-400/40 px-4 py-2 rounded-md hover:bg-emerald-400/10 transition mt-auto"
@@ -108,52 +136,52 @@ const entreprises = [
             >
           </div>
 
-          <div class="col-span-3 grid grid-cols-6 gap-10 place-items-center">
-            <!-- ForIP -->
-            <div
-              class="card col-span-2 col-start-2 rounded-xl p-6 text-center flex flex-col w-full h-full"
+          <!-- ForIP -->
+          <div
+            class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
+          >
+            <p class="uppercase text-emerald-400 font-semibold text-sm mb-3">
+              Développeur web Fullstack PHP
+            </p>
+            <img
+              src="@/assets/img/entreprise/forip.png"
+              alt="ForIP Logo"
+              class="mx-auto w-20 mb-3 p-1"
+            />
+            <h3 class="text-lg font-semibold text-emerald-300 mb-1">ForIP</h3>
+            <p class="text-sm text-emerlad-400 mb-4">
+              Éditeur logiciel – Solutions télécome
+            </p>
+            <a
+              href="#"
+              class="inline-block text-sm text-emerald-300 border border-emerald-400/40 px-4 py-2 rounded-md hover:bg-emerald-400/10 transition mt-auto"
+              target="_blank"
+              >Visiter le site</a
             >
-              <p class="uppercase text-emerald-400 font-semibold text-sm mb-3">
-                Développeur web Fullstack PHP
-              </p>
-              <img
-                src="@/assets/img/entreprise/forip.png"
-                alt="ForIP Logo"
-                class="mx-auto w-16 mb-3"
-              />
-              <h3 class="text-lg font-semibold text-emerald-300 mb-1">ForIP</h3>
-              <p class="text-sm text-emerlad-400 mb-4">
-                Éditeur logiciel – Solutions télécome
-              </p>
-              <a
-                href="#"
-                class="inline-block text-sm text-emerald-300 border border-emerald-400/40 px-4 py-2 rounded-md hover:bg-emerald-400/10 transition mt-auto"
-                target="_blank"
-                >Visiter le site</a
-              >
-            </div>
+          </div>
 
-            <!-- Carthage businessware -->
-            <div
-              class="card col-span-2 rounded-xl p-6 text-center flex flex-col w-full h-full"
+          <!-- Carthage businessware -->
+          <div
+            class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
+          >
+            <p class="uppercase text-emerald-400 font-semibold text-sm mb-3">
+              Intégrateur web & mobile
+            </p>
+            <img
+              src="@/assets/img/entreprise/carthage_businessware.jpg"
+              alt="ForIP Logo"
+              class="mx-auto w-16 mb-3"
+            />
+            <h3 class="text-lg font-semibold text-emerald-300 mb-1">
+              Carthage businessWare
+            </h3>
+            <p class="text-sm text-emerlad-400 mb-4">Éditeur logiciel</p>
+            <a
+              href="#"
+              class="inline-block text-sm text-emerald-300 border border-emerald-400/40 px-4 py-2 rounded-md hover:bg-emerald-400/10 transition mt-auto"
+              target="_blank"
+              >Visiter le site</a
             >
-              <p class="uppercase text-emerald-400 font-semibold text-sm mb-3">
-                Intégrateur web & mobile
-              </p>
-              <img
-                src="@/assets/img/entreprise/carthage_businessware.jpg"
-                alt="ForIP Logo"
-                class="mx-auto w-16 mb-3"
-              />
-              <h3 class="text-lg font-semibold text-emerald-300 mb-1">Carthage businessWare</h3>
-              <p class="text-sm text-emerlad-400 mb-4">Éditeur logiciel</p>
-              <a
-                href="#"
-                class="inline-block text-sm text-emerald-300 border border-emerald-400/40 px-4 py-2 rounded-md hover:bg-emerald-400/10 transition mt-auto"
-                target="_blank"
-                >Visiter le site</a
-              >
-            </div>
           </div>
         </div>
       </div>
@@ -178,9 +206,7 @@ const entreprises = [
           >
             <div class="py-8 bg-gray-900">
               <baseSliderComponent
-                :images="[
-                  image_galactic_1, image_galactic_2
-                ]"
+                :images="[image_galactic_1, image_galactic_2]"
                 :autoplay="true"
                 :interval="4000"
               />
@@ -257,9 +283,7 @@ const entreprises = [
           >
             <div class="py-8 bg-gray-900">
               <baseSliderComponent
-                :images="[
-                  image_tml, image_tml_api
-                ]"
+                :images="[image_tml, image_tml_api]"
                 :autoplay="true"
                 :interval="4000"
               />
@@ -307,96 +331,110 @@ const entreprises = [
           <div
             class="card col-span-3 rounded-xl p-6 text-center flex flex-col w-full h-full"
           >
-          <p class="mb-5 font-bold text-2xl text-emerald-200"></p>
-            <div class="list-none grid grid-cols-4 text-emerald-900 font-bold gap-10">
-              <div
-                class="items-center gap-4"
-              >
+            <p class="mb-5 font-bold text-2xl text-emerald-200"></p>
+            <div
+              class="list-none grid grid-cols-4 text-emerald-900 font-bold gap-10"
+            >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://www.garageguignet.fr/" target="_blank">
-                  <img src="@/assets/img/projects/garageguignet.png" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/garageguignet.png"
+                    class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://www.grand-hotel-pension.fr/" target="_blank">
-                  <img src="@/assets/img/projects/grand_hotel.png" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/grand_hotel.png"
+                    class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
-                <a href="https://www.brasserie-lariboterie.com/" target="_blank">
-                  <img src="@/assets/img/projects/lariboterie.webp" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                <a
+                  href="https://www.brasserie-lariboterie.com/"
+                  target="_blank"
+                >
+                  <img
+                    src="@/assets/img/projects/lariboterie.webp"
+                    class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
 
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://www.taxi-allison.fr/" target="_blank">
-                  <img src="@/assets/img/projects/taxialison.png" class="bg-emerald-900 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/taxialison.png"
+                    class="bg-emerald-900 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
 
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://sebm.fr/" target="_blank">
-                  <img src="@/assets/img/projects/sebm.svg" class="bg-emerald-950 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/sebm.svg"
+                    class="bg-emerald-950 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
 
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://skalli-paris.com/" target="_blank">
-                  <img src="@/assets/img/projects/skalli_paris.svg" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/skalli_paris.svg"
+                    class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
 
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://www.g-p-a.fr/" target="_blank">
-                  <img src="@/assets/img/projects/gpa.webp" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/gpa.webp"
+                    class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
 
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://burlet.pro/" target="_blank">
-                  <img src="@/assets/img/projects/burlet.svg" class="bg-emerald-950 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/burlet.svg"
+                    class="bg-emerald-950 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
 
-              <div
-                class="col-start-2 items-center gap-4"
-              >
+              <div class="col-start-2 items-center gap-4">
                 <!-- Icône -->
                 <a href="https://autocars-chazot.com/" target="_blank">
-                  <img src="@/assets/img/projects/chazot.png" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/chazot.png"
+                    class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
 
-              <div
-                class="items-center gap-4"
-              >
+              <div class="items-center gap-4">
                 <!-- Icône -->
                 <a href="https://www.winedesign.fr/" target="_blank">
-                  <img src="@/assets/img/projects/wine_design.png" class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"/>
+                  <img
+                    src="@/assets/img/projects/wine_design.png"
+                    class="bg-emerald-100 rounded-xl w-50 h-25 shadow-[0_0_30px_5px_rgba(164,244,207,0.6)] hover:w-52"
+                  />
                 </a>
               </div>
-             
             </div>
           </div>
         </div>
