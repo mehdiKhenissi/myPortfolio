@@ -198,8 +198,41 @@ const entreprises = [
       <div class="grid grid-cols-8 relative">
         <!-- Grille des Projets -->
         <div
-          class="col-span-6 col-start-2 grid max-sm:grid-cols-1 md:grid-cols-3 gap-10"
+          class="col-span-8 col-start-1 grid max-sm:grid-cols-1 md:grid-cols-4 gap-10"
         >
+
+          <!-- IESS -->
+          <div
+            class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
+          >
+            <div class="py-8 bg-gray-900">
+              <img
+                src="@/assets/img/entreprise/iess-paca.svg"
+                alt="WebMediaRM Logo"
+                class="mx-auto w-full h-40 my-4 bg-orange-600"
+              />
+            </div>
+            <h3 class="text-lg font-semibold text-emerald-300 mb-1">
+              Terminal Urgences (TU)
+            </h3>
+            <p class="text-gray-200 mb-5">
+              <span class="text-emerald-500 font-bold">Le Terminal des Urgences</span> est un outil informatisé de gestion des services d’urgences sous forme d’une main courante.
+              <br>
+              Il est alimenté en temps réel par l’applicatif d’admission de l’établissement, qui reste maître en matière d’identité.
+              <br>
+              <span class="text-emerald-500 font-bold"
+                >Il est pensé par des professionnels et développé par des informaticiens spécialisés dans le domaine médical.</span
+              >
+            </p>
+            <a
+              href="https://tgs.iess.fr/presentation-tu/"
+              target="_blank"
+              class="inline-block text-sm text-emerald-300 border border-emerald-400/40 px-4 py-2 rounded-md hover:bg-emerald-400/10 transition mt-auto"
+              title="Me contacter pour les accès"
+              >Visiter le site (Tutoriel)</a
+            >
+          </div>
+
           <!-- GALACTIC -->
           <div
             class="card rounded-xl p-6 text-center flex flex-col w-full h-full"
@@ -327,9 +360,11 @@ const entreprises = [
             </div>
           </div>
 
-          <!-- SITE CREER AVEC TPL -->
+        </div>
+
+        <!-- SITE CREER AVEC TPL -->
           <div
-            class="card col-span-3 rounded-xl p-6 text-center flex flex-col w-full h-full"
+            class="card col-span-6 col-start-2 rounded-xl p-6 text-center mt-15"
           >
             <p class="mb-5 font-bold text-2xl text-emerald-200"></p>
             <div
@@ -437,7 +472,7 @@ const entreprises = [
               </div>
             </div>
           </div>
-        </div>
+
       </div>
     </div>
   </div>
